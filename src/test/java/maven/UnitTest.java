@@ -1,8 +1,11 @@
 package maven;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-public class Test {
+import org.junit.Test;
+
+public class UnitTest {
+	@Test
 	
     public void sum(){
 		System.out.println("Sum");

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="maven.UnitTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="maven.UnitTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\WorkSpace\MavennDemoTest\target\test-classes;D:\WorkSpace\MavennDemoTest\target\classes;C:\Users\Anjali Singh\.m2\repository\javax\xml\parsers\jaxp-api\1.4.5\jaxp-api-1.4.5.jar;C:\Users\Anjali Singh\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Anjali Singh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-testng\2.22.0\surefire-testng-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-java5\2.22.0\common-java5-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.0\surefire-api-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.0\surefire-logger-api-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.22.0\surefire-junit47-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-junit48\2.22.0\common-junit48-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-junit4\2.22.0\common-junit4-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-junit3\2.22.0\common-junit3-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar;"/>
+    <property name="java.class.path" value="D:\WorkSpace\MavennDemoTest\target\test-classes;D:\WorkSpace\MavennDemoTest\target\classes;C:\Users\Anjali Singh\.m2\repository\javax\xml\parsers\jaxp-api\1.4.5\jaxp-api-1.4.5.jar;C:\Users\Anjali Singh\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Anjali Singh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,8 +18,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
-    <property name="sun.java.command" value="C:\Users\ANJALI~1\AppData\Local\Temp\surefire1349487553027125977\surefirebooter9050098807557779927.jar C:\Users\Anjali Singh\AppData\Local\Temp\surefire1349487553027125977 2018-09-03T21-21-42_652-jvmRun1 surefire2443915072203984798tmp surefire_0148509640327977792tmp"/>
-    <property name="surefire.test.class.path" value="D:\WorkSpace\MavennDemoTest\target\test-classes;D:\WorkSpace\MavennDemoTest\target\classes;C:\Users\Anjali Singh\.m2\repository\javax\xml\parsers\jaxp-api\1.4.5\jaxp-api-1.4.5.jar;C:\Users\Anjali Singh\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Anjali Singh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-testng\2.22.0\surefire-testng-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-java5\2.22.0\common-java5-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.0\surefire-api-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.0\surefire-logger-api-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.22.0\surefire-junit47-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-junit48\2.22.0\common-junit48-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-junit4\2.22.0\common-junit4-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\surefire\common-junit3\2.22.0\common-junit3-2.22.0.jar;C:\Users\Anjali Singh\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar;"/>
+    <property name="sun.java.command" value="C:\Users\ANJALI~1\AppData\Local\Temp\surefire647306177320891446\surefirebooter7947453547544367284.jar C:\Users\Anjali Singh\AppData\Local\Temp\surefire647306177320891446 2018-09-03T23-37-22_695-jvmRun1 surefire4989871050826512818tmp surefire_02007874696428060768tmp"/>
+    <property name="surefire.test.class.path" value="D:\WorkSpace\MavennDemoTest\target\test-classes;D:\WorkSpace\MavennDemoTest\target\classes;C:\Users\Anjali Singh\.m2\repository\javax\xml\parsers\jaxp-api\1.4.5\jaxp-api-1.4.5.jar;C:\Users\Anjali Singh\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Anjali Singh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Anjali Singh"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ANJALI~1\AppData\Local\Temp\surefire1349487553027125977\surefirebooter9050098807557779927.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANJALI~1\AppData\Local\Temp\surefire647306177320891446\surefirebooter7947453547544367284.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="sum" classname="maven.UnitTest" time="0"/>
+  <testcase name="sum" classname="maven.UnitTest" time="0.001"/>
 </testsuite>
